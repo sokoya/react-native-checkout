@@ -81,3 +81,4 @@ Never rename `PAYSCRIBE_SECRET_KEY` to an `EXPO_PUBLIC_` variable. Expo public
 variables are embedded in the app bundle and can be inspected by users.
 # react-native-checkout
 # react-native-checkout
+# react-native-checkout
