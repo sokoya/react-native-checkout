@@ -82,3 +82,4 @@ variables are embedded in the app bundle and can be inspected by users.
 # react-native-checkout
 # react-native-checkout
 # react-native-checkout
+# react-native-checkout
