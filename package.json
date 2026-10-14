@@ -22,10 +22,10 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "node api.js && expo start",
+    "start": "expo start",
     "server": "tsx watch server.ts",
     "server:once": "tsx server.ts",
-    "dev": "node api.js && concurrently -k -n API,EXPO -c blue,green \"npm:server\" \"npm:start\"",
+    "dev": "concurrently -k -n API,EXPO -c blue,green \"npm:server\" \"npm:start\"",
     "typecheck": "tsc --noEmit",
     "android": "expo start --android",
     "ios": "expo start --ios",
